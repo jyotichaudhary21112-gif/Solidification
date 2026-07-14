@@ -34,7 +34,7 @@ The movement of the solid-liquid interface $\Gamma(t)$ is controlled by the diss
 $$v \cdot L = k_s \left( \frac{\partial T_s}{\partial n} \right) - k_l \left( \frac{\partial T_l}{\partial n} \right)$$
 
 ### 3.2 Mass Balance (Solute Partitioning)
-As the solid grows, solute atoms are partitioned. The equilibrium partition coefficient is $k = C_s^* / C_l^*$. The conservation of mass at the interface is:
+As the solid grows, solute atoms are partitioned. The equilibrium partition coefficient is  $$k = \frac{C_s}{C_l}$$. The conservation of mass at the interface is:
 $$v C_l^* (1 - k) = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
 
 
