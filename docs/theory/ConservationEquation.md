@@ -1,6 +1,6 @@
 # Solidification Theory: Interface Dynamics & Mass Balance
 
-This document outlines the fundamental governing equations for the solidification of alloys, specifically the movement of the solid-liquid interface ($\Gamma(t)$) and the redistribution of solute atoms.
+This document outlines the fundamental governing equations for the solidification of alloys, specifically the movement of the solid-liquid interface $\Gamma(t)$ and the redistribution of solute atoms.
 
 ---
 
