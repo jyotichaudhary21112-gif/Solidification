@@ -54,10 +54,13 @@ Where:
     $$J = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
 4. **Conservation Equation:** The net accumulation must equal the diffusion flux:
     $$v(C_l^* - C_s^*) = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
-5. **Final Mass Balance:** Substituting the partition coefficient relationship $C_s^* = k C_l^*$:
-    $$v C_l^* (1 - k) = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
 
 
+### Final Mass Balance
+
+By substituting the partition coefficient relationship $C_s^* = k C_l^*$, we arrive at the standard form for the solute boundary layer:
+
+$$v C_l^* (1 - k) = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
 
 ---
 
