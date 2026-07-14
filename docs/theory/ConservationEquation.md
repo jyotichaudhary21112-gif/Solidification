@@ -25,20 +25,23 @@ The Stefan condition determines the velocity ($v$) of the moving solid-liquid in
 
 ## 2. Mass Balance Equations (Solute Partitioning)
 
-In alloy solidification, solute atoms are partitioned between the solid and liquid phases. This is governed by the partition coefficient $k$:
+In alloy solidification, solute atoms are partitioned between the solid and liquid phases. This is governed by the equilibrium partition coefficient $k$:
+
 $$k = \frac{C_s^*}{C_l^*}$$
+
+
 
 ### Step-by-Step Derivation
 
-1.  **Solute Flux Balance:** As the solid advances at velocity $v$, it rejects or absorbs solute.
-2.  **Mass Flux into/out of the Interface:**
+1. **Solute Flux Balance:** As the solid advances at velocity $v$, it must conserve mass at the interface.
+2. **Mass Flux into/out of the Interface:**
     * Flux entering the solid: $v \cdot C_s^*$
     * Flux arriving from the liquid: $v \cdot C_l^*$
-3.  **Diffusion Contribution:** The excess solute rejected at the interface must be balanced by diffusion into the liquid (Fick's First Law):
+3. **Diffusion Contribution:** The excess solute rejected at the interface creates a concentration gradient. This must be balanced by diffusion into the liquid (Fick's First Law):
     $$J = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
-4.  **Conservation Equation:**
+4. **Conservation Equation:** The net accumulation must equal the diffusion flux:
     $$v(C_l^* - C_s^*) = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
-5.  **Final Mass Balance:** Substituting $C_s^* = k C_l^*$:
+5. **Final Mass Balance:** Substituting the partition coefficient relationship $C_s^* = k C_l^*$:
     $$v C_l^* (1 - k) = D_l \left( \frac{\partial C_l}{\partial x} \right)$$
 
 
