@@ -61,3 +61,39 @@ $$\frac{dT}{dP} = \frac{V_l^m - V_s^m}{S_l^m - S_s^m}$$
 * **State Functions:** We transition from $U \to H \to G$ to align thermodynamic variables with experimental control (moving from $S,V$ to $T,P$).
 * **Equilibrium:** The chemical potentials of the solid and liquid phases must be identical at the interface.
 * **Phase Stability:** The Clausius-Clapeyron equation quantifies the sensitivity of the melting point to external pressure.
+
+
+### 4. Interfacial Thermodynamics & Gibbs-Thomson Effect
+
+Beyond the bulk phase boundary defined by Clausius-Clapeyron, the local geometry of the solid-liquid interface significantly alters phase stability.
+
+#### 4.1 The Curvature Penalty
+When a solid nucleus forms within a liquid, it must overcome an energy barrier due to the surface energy ($\gamma_{sl}$) of the newly formed interface. For a curved interface with mean curvature $\bar{\kappa}$, the equilibrium condition is modified:
+
+$$G_s^m + 2V_s^m \bar{\kappa} \gamma_{sl} = G_l^m$$
+
+
+
+#### 4.2 The Gibbs-Thomson Equation
+This curvature-induced pressure leads to the Gibbs-Thomson relation, which dictates the melting point depression for small particles or high-curvature growth fronts:
+
+$$\Delta T_r = \frac{2\gamma_{sl} T_m}{L \cdot r}$$
+
+* **$\Delta T_r$**: The depression in melting temperature due to curvature.
+* **$r$**: The radius of curvature of the interface.
+* **$L$**: Latent heat of fusion per unit volume.
+
+
+
+---
+
+### 5. Summary: Thermodynamic Driving Forces
+Solidification is the result of competing energy factors:
+1. **Bulk Free Energy ($\Delta G_v$):** The primary driver (proportional to undercooling $\Delta T$).
+2. **Surface Energy ($\gamma_{sl}$):** The resistance to forming new interfaces (curvature penalty).
+
+These two factors define the **critical nucleus size ($r^*$)** required for a solid to become stable:
+
+$$r^* = \frac{2\gamma_{sl}}{\Delta G_v}$$
+
+Anything smaller than $r^*$ will melt back into the liquid; anything larger will grow.
