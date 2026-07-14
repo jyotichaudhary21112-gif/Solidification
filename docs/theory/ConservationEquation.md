@@ -27,7 +27,7 @@ The Stefan condition determines the velocity ($v$) of the moving solid-liquid in
 
 In alloy solidification, solute atoms are partitioned between the solid and liquid phases. This is governed by the equilibrium partition coefficient $k$:
 
-$$k = \frac{C_s^*}{C_l^*}$$
+$$k = \frac{C_s^{*}}{C_l^{*}}$$
 
 
 
