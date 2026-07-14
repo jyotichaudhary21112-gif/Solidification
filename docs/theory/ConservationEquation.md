@@ -30,7 +30,6 @@ In alloy solidification, solute atoms are partitioned between the solid and liqu
 ### Partition Coefficient
 
 The distribution of solute atoms between the solid and liquid phases is governed by the partition coefficient $k$:
-
 $$k = \frac{C_s^{*}}{C_l^{*}}$$
 
 Where:
